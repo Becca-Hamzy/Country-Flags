@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World flag</title>
+    <script src="./app.js"defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+        <div class="header" id="header">
+            <h2 id="title">Where in the world?</h2>
+             <div class="font" id="dark"> <i class="fa-regular fa-moon"></i> Dark mode</div>
+       </div>
+       <div class="search">
+                
+                <div class="form" id="search">
+                  <i class="fa-solid fa-magnifying-glass"></i>
+                  <input id="searching"
+                  type="search" placeholder="search for a country">
+                </div>
+                 
+
+             <div class="selec" id="sele">
+             <select name="region" id="region">
+                <option for="region">Filter by Region</option>
+                <option value="Africa">Africa</option>
+                <option value="Asia">Asia</option>
+                <option value="Europe">Europe</option>
+                <option value="North America">North America</option>
+                <option value="Oceania">Oceania</option>
+                <option value="South America">South America</option>
+             </select>
+            </div> 
+        </div>
+        <div id="main-container">
+            <div class="row-1" id="row">
+                
+            </div>
+            <div id="doc">
+               <div class="img"> <img src= "" alt="" id="img"></div>
+                <div class="text">
+               <p id="country"></p>
+               <p id="nativeName"></p> 
+               <p id="popu"></p>
+               <p id="continent"></p>
+               <p id="subregion"></p>
+               <p id="capital"></p>
+    
+            </div>
+            <div class="details">
+               <p id="domain"></p>
+               <p id="currencies"></p>
+               <p id="languages"></p>
+               <p id="border"></p>
+            </div>
+        </div>
+    
+         </div>
+            <div id="filteresult">
+            </div>
+        </div>
+    
+    
+</body>
+</html>
